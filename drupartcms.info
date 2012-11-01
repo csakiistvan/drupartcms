@@ -1,0 +1,50 @@
+name = DrupArt
+description = DrupArt with only a few modules enabled.
+version = VERSION
+core = 7.x
+
+; core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = locale
+
+; views
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = ctools
+
+; SEO
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = transliteration
+dependencies[] = metatag
+dependencies[] = opengraph_meta
+dependencies[] = page_title
+dependencies[] = xmlsitemap
+
+; Admin node edit modules
+dependencies[] = ckeditor
+
+; Devel
+dependencies[] = backup_migrate
+
+; Theme modules
+dependencies[] = browserclass
