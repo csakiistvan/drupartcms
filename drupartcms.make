@@ -5,11 +5,11 @@ core = 7.x
 projects[drupal][type] = core
 
 ; drupartcms profile
-; projects[drupartcms][type] = profile
-; projects[drupartcms][download][type] = git
-; projects[drupartcms][download][url] = git@github.com:csakiistvan/drupartcms.git
-; projects[drupartcms][download][branch] = master
-; projects[drupartcms][directory_name] = drupartcms
+projects[drupartcms][type] = profile
+projects[drupartcms][download][type] = git
+projects[drupartcms][download][url] = git@github.com:csakiistvan/drupartcms.git
+projects[drupartcms][download][branch] = master
+projects[drupartcms][directory_name] = drupartcms
 
 ; contrib modules
 projects[colorbox][subdir] = contrib
