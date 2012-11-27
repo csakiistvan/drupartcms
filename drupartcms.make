@@ -41,7 +41,7 @@ projects[metatag][subdir] = contrib
 projects[opengraph_meta][subdir] = contrib
 projects[page_title][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
-projects[path_redirect][subdir] = contrib
+projects[redirect][subdir] = contrib
 
 ; Admin node edit modules
 projects[ckeditor][subdir] = contrib
