@@ -24,6 +24,7 @@ projects[views_slideshow][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 projects[nice_menus][subdir] = contrib
 projects[backup_migrate][subdir] = contrib
+projects[admin_menu][subdir] = contrib
 
 ; views
 projects[token][subdir] = contrib
@@ -40,6 +41,7 @@ projects[metatag][subdir] = contrib
 projects[opengraph_meta][subdir] = contrib
 projects[page_title][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
+projects[path_redirect][subdir] = contrib
 
 ; Admin node edit modules
 projects[ckeditor][subdir] = contrib
