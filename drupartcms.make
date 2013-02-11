@@ -59,3 +59,6 @@ projects[features][subdir] = contrib
 projects[browserclass][subdir] = contrib
 projects[nice_menus][subdir] = contrib
 projects[zen][subdir] = contrib
+
+; Form
+projects[entityform][subdir] = contrib
