@@ -1,0 +1,13 @@
+name = Simple contact
+description = Simple contact module with Entity form
+core = 7.x
+package = Drupart
+version = 7.x-1.0
+project = simple_contact
+dependencies[] = entityform
+dependencies[] = features
+features[entityform_type][] = kapcsolat
+features[features_api][] = api:1
+features[field][] = entityform-kapcsolat-field_email
+features[field][] = entityform-kapcsolat-field_nev
+features[field][] = entityform-kapcsolat-field_uzenet
