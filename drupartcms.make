@@ -25,6 +25,7 @@ projects[xmlsitemap][subdir] = contrib
 projects[nice_menus][subdir] = contrib
 projects[backup_migrate][subdir] = contrib
 projects[admin_menu][subdir] = contrib
+projects[simplify][subdir] = contrib
 
 ; views
 projects[token][subdir] = contrib

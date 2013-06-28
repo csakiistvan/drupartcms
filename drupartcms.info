@@ -50,8 +50,3 @@ dependencies[] = backup_migrate
 
 ; Theme modules
 dependencies[] = browserclass
-
-; Information added by drush on 2012-11-01
-version = "master"
-project = "drupartcms"
-datestamp = "1350468174"
