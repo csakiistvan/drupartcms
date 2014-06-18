@@ -1,8 +1,10 @@
 api = 2
 core = 7.x
 
+defaults[projects][subdir] = "contrib"
+
 ; core
-projects[drupal][type] = core
+projects[] = drupal
 
 ; drupartcms profile
 projects[drupartcms_profile][type] = profile
@@ -12,54 +14,47 @@ projects[drupartcms_profile][download][branch] = master
 projects[drupartcms_profile][directory_name] = drupartcms
 
 ; contrib modules
-projects[colorbox][subdir] = contrib
-projects[ctools][subdir] = contrib
-projects[features][subdir] = contrib
-projects[libraries][subdir] = contrib
-projects[galleryformatter][subdir] = contrib
-projects[google_analytics][subdir] = contrib
-projects[references][subdir] = contrib
-projects[site_map][subdir] = contrib
-projects[views_slideshow][subdir] = contrib
-projects[xmlsitemap][subdir] = contrib
-projects[nice_menus][subdir] = contrib
-projects[backup_migrate][subdir] = contrib
-projects[admin_menu][subdir] = contrib
-projects[simplify][subdir] = contrib
+projects[] = colorbox
+projects[] = libraries
+projects[] = galleryformatter
+projects[] = google_analytics
+projects[] = references
+projects[] = site_map
+projects[] = views_slideshow
+projects[] = admin_menu
+projects[] = simplify
 
 ; views
-projects[token][subdir] = contrib
-projects[views][subdir] = contrib
-projects[ctools][subdir] = contrib
+projects[] = views
+projects[] = ctools
 
 ; SEO
-projects[pathauto][subdir] = contrib
-projects[token][subdir] = contrib
-projects[redirect][subdir] = contrib
-projects[globalredirect][subdir] = contrib
-projects[transliteration][subdir] = contrib
-projects[metatag][subdir] = contrib
-projects[opengraph_meta][subdir] = contrib
-projects[page_title][subdir] = contrib
-projects[xmlsitemap][subdir] = contrib
-projects[redirect][subdir] = contrib
-projects[site_verify][subdir] = contrib
+projects[] = pathauto
+projects[] = token
+projects[] = redirect
+projects[] = globalredirect
+projects[] = transliteration
+projects[] = metatag
+projects[] = opengraph_meta
+projects[] = page_title
+projects[] = xmlsitemap
+projects[] = site_verify
 
 ; Admin node edit modules
-projects[ckeditor][subdir] = contrib
+projects[] = ckeditor
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.4/ckeditor_3.6.4.tar.gz"
-projects[insert][subdir] = contrib
+projects[] = insert
 
 ; Devel
-projects[backup_migrate][subdir] = contrib
-projects[devel][subdir] = contrib
-projects[features][subdir] = contrib
+projects[] = backup_migrate
+projects[] = devel
+projects[] = features
 
 ; Theme modules
-projects[browserclass][subdir] = contrib
-projects[nice_menus][subdir] = contrib
-projects[zen][subdir] = contrib
+projects[] = browserclass
+projects[] = nice_menus
+projects[] = zen
 
 ; Form
-projects[entityform][subdir] = contrib
+projects[] = entityform
